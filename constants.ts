@@ -51,7 +51,7 @@ export const INCLUSIONS = [
 export const PRICING_ITEMS: PricingItem[] = [
   {
     title: "Landing page",
-    price: "499 zł",
+    price: "399 zł",
     features: ["1 długa sekcja scrollowana", "Sekcja Hero + CTA", "Odbiór w 3 dni robocze", "Bez systemu CMS"]
   },
   {

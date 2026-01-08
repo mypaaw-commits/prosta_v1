@@ -17,11 +17,11 @@ const Pricing: React.FC = () => {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: idx * 0.2 }}
               viewport={{ once: true }}
-              className={`border-4 border-bauhaus-black bg-white p-8 flex flex-col h-full relative ${idx === 2 ? 'md:-mt-4 shadow-[16px_16px_0px_0px_#D93025]' : 'shadow-[8px_8px_0px_0px_#121212]'}`}
+              className={`border-4 border-bauhaus-black bg-white p-8 flex flex-col h-full relative ${idx === 1 ? 'md:-mt-4 shadow-[16px_16px_0px_0px_#D93025]' : 'shadow-[8px_8px_0px_0px_#121212]'}`}
             >
-              {idx === 2 && (
+              {idx === 1 && (
                 <div className="absolute top-0 right-0 bg-bauhaus-red text-white text-xs font-bold px-3 py-1 uppercase tracking-widest transform translate-x-2 -translate-y-1/2 border-2 border-bauhaus-black">
-                  Najpopularniejszy
+                  Najczęściej wybierana
                 </div>
               )}
               
@@ -38,7 +38,7 @@ const Pricing: React.FC = () => {
 
               <a 
                 href={`#${SectionId.CONTACT}`}
-                className={`block text-center w-full py-3 text-lg font-black border-2 border-bauhaus-black transition-all ${idx === 2 ? 'bg-bauhaus-black text-white hover:bg-bauhaus-blue' : 'bg-transparent hover:bg-bauhaus-black hover:text-white'}`}
+                className={`block text-center w-full py-3 text-lg font-black border-2 border-bauhaus-black transition-all ${idx === 1 ? 'bg-bauhaus-black text-white hover:bg-bauhaus-blue' : 'bg-transparent hover:bg-bauhaus-black hover:text-white'}`}
               >
                 ZAMÓW
               </a>
